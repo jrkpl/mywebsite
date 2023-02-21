@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+  }
+  
+  /** Test comment **/
+
+  navx {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  navx a {
+    width: 4px;
+    height: 25px;
+    display: block;
+    background: seashell;
+    background-clip: content-box;
+    padding: 0 7px;
+    border-radius: 45%;
+    margin: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .vivid:nth-child(odd) {
+    background-color: darkslateblue;
+  }
+  
+  .vivid:nth-child(even) {
+    background-color: royalblue;
+  }
+  
+  section {
+    height: 100vh;
+  }
+  
+  section:nth-child(even) {
+    background: rgb(79, 122, 79);
+  }
+  
+  section:nth-child(odd) {
+    background: rgb(148, 87, 87);
+  }
